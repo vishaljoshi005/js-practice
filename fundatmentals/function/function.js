@@ -89,3 +89,77 @@
 // };
 
 // execute();
+
+// function checkAge(age) {
+//     if (age > 18) {
+//       return true;
+//     } else {
+//       // ...
+//       return confirm('Did parents allow you?');
+//     }
+//   }
+
+//   function checkAge(age) {
+//     if (age > 18) {
+//       return true;
+//     }
+//     // ...
+//     return confirm('Did parents allow you?');
+//   }
+
+// function min(a, b){
+//     if(a<b){
+//         return a;
+//     }else{
+//         return b;
+//     }
+// }
+
+// console.log(min(3,-1));
+
+// function pow(a,b) {
+//     return a**b;
+// }
+
+// console.log(pow(1,100));
+
+// let schedule = {};
+
+// schedule['Time'] = "08:30";
+
+// function isEmpty(obj) {
+//     let empty = false;
+//     for(let key in obj){
+//         empty = true;
+//     }
+//     return empty;
+// }
+
+// console.log(isEmpty(schedule));
+
+// let salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 140
+// };
+
+// function sumGame(obj) {
+//     let sum =0;
+//     for(let key in obj){
+//         sum+=obj[key];
+//     }
+//     return sum;
+// }
+// console.log(sumGame(salaries));
+
+let menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+  };
+
+function multiplyNumeric(obj) {
+    return Object.assign(obj, {width: obj.width*2, height: obj.height*2});
+}
+
+console.log(multiplyNumeric(menu));
