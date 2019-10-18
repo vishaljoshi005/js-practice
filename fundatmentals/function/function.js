@@ -1,4 +1,4 @@
-const {promisify} = require('util');
+// const {promisify} = require('util');
 // function name(){
 //     alert('name');
 // }
@@ -64,3 +64,28 @@ const {promisify} = require('util');
 //     }
 // }
 // execute('values');
+
+// let greeting = (name) => {
+//     alert(name);
+// };
+
+// let askPrompt = () => {
+//     return new Promise((resolve, reject)=>{
+//         let name = prompt('Enter the name');
+//         resolve(name);
+//     });
+    
+// };
+
+// // let askPromise = promisify(askPrompt);
+
+// let execute = async () => {
+//     try{
+//         const name = await askPrompt();
+//         greeting(name);
+//     }catch(error) {
+//         console.log(error);
+//     }
+// };
+
+// execute();
